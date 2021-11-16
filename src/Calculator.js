@@ -250,7 +250,7 @@ const Calculator = (pros) => {
               <Typography>
                 If you would like to support our work, please consider donating
                 <Typography variant="overline" display="block" gutterBottom>
-                  no more than 1.0 ADA
+                  no more than 2.1 ADA
                 </Typography> to our address,
                 <Link href="https://cardanoscan.io/address/0128d9283d170994651b2e71f8b28d425f956236bb310f9b8635c9cb3228b5d183451a69b3e0e422e90ea503c8207ee4d321aaf8c7aef88cf8" underline="hover">
                   {' '}addr1qy5...tg76
