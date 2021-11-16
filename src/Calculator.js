@@ -198,7 +198,7 @@ const Calculator = (pros) => {
         </div>
       </Grid>
 
-      <Grid item xs={12} style={{ display: 'flex', justifyContent: 'center' }}>
+      <Grid item xs={12} style={{ display: 'flex', justifyContent: 'center', margin: '20px' }}>
         <div style={{ maxWidth: '52ch' }}>
           <Accordion>
             <AccordionSummary
