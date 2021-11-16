@@ -200,7 +200,7 @@ const Calculator = (pros) => {
 
       <Grid item xs={12} style={{ display: 'flex', justifyContent: 'center' }}>
         <div style={{ maxWidth: '52ch' }}>
-          <Accordion defaultExpanded>
+          <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -209,12 +209,32 @@ const Calculator = (pros) => {
               <Typography variant="button">How do we calculate the rewards?</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{ alignContent: 'left' }}>The calculation is based on{' '}
+              <Typography>The calculation is based on{' '}
                 <Link href="https://old.reddit.com/r/SundaeSwap/comments/ngc3k4/how_to_calculate_your_sundae_rewards" underline="hover">
                   how_to_calculate_your_sundae_rewards
                 </Link>
                 {' '}with the assumption that all ADA has equal power of earning Sudae tokens.
           </Typography>
+            </AccordionDetails>
+          </Accordion>
+
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel3a-content"
+              id="panel3a-header"
+            >
+              <Typography variant="button">Additional resources?</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>
+                <Link href="https://sundaeswap-finance.medium.com/sundaeswap-iso-details-110699d0d7fb">
+                  SundaeSwap ISO Details
+                </Link><br />
+                <Link href="https://cardanode.com.au/sundaeswap-iso-complete-guide-sundae-tokens/">
+                  SundaeSwap ISO: Easy Complete Guide
+                </Link>
+              </Typography>
             </AccordionDetails>
           </Accordion>
 
@@ -224,7 +244,7 @@ const Calculator = (pros) => {
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
-              <Typography variant="button">Donation welcome</Typography>
+              <Typography variant="button">Donation welcome!</Typography>
             </AccordionSummary>
             <AccordionDetails styles={{ justifyContent: 'left' }}>
               <Typography>
