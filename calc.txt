@@ -1,0 +1,33 @@
+
+
+contribution: 5k
+poolsize:  500k
+
+ada price: 2
+sundae initial price: 0.08
+
+staking rewards: 5%
+pool commision: 2%
+epoch: 5 days
+
+===
+
+5000*(0.05/73) = 3.42
+
+all 342.46/098 = 349.45
+
+340 fixed pool fee
+
+total:  689.45
+
+
+
+689.45*2/0.08 = 17,236.37 sundae
+
+
+
+172.36
+
+
+
+
